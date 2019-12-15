@@ -188,10 +188,10 @@ border-bottom:2px solid #e33333;
 
 }
 .mod-service{
-    padding: 0 120px;
+    padding: 0 18%;
     height: 79px;
     width: 100%;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #e1e1e1;
 }
 .mod-service li {
     float: left;
@@ -234,7 +234,7 @@ border-bottom:2px solid #e33333;
 .mod-help{
     height: 187px;
 
-    border-bottom: red 2px solid;
+    border-bottom: #e1e1e1 1px solid;
 }
 .mod-help-list{
     float: left;
@@ -242,10 +242,46 @@ border-bottom:2px solid #e33333;
     padding: 20px 0 0 50px;
 }
 .mod-help-list dt{
+    font-weight:bold;
     height: 25px;
-    font-size: 16px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    color:#666
 }
 .mod-help-list dd{
     height: 22px;
     font-size: 11px;
+}
+.mod-help-list-end p{font-size: 11px;
+color:#666}
+.mod-help-list-end{
+    float: left;
+    width: 150px;
+    padding: 20px 0 0 50px;
+}
+
+.mod-help-list-end dt{
+    text-align: center;
+
+    font-weight:bold;
+    height: 25px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    color:#666
+}
+.mod-help-list-end dd{
+
+    height: 22px;
+    font-size: 11px;
+}
+.mod-copyright{
+    text-align: center;
+
+}
+.mod-copyright-links{
+    margin-top: 19px;
+    margin-bottom:15px;
+}
+.mod-copyright-links a{
+    font-size: 12px;
 }
