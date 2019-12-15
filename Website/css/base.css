@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+}
+li{list-style-type: none;}
+em,
+i{
+    font-style:normal;
+}
+img{
+    border:0;
+    vertical-align: middle;
+}
+button{
+    cursor: pointer;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+a:hover{
+    color:#e33333;
+}
+.hide,
+.none{
+    display: none;
+}
+.clearfix:after{
+    visibility: hidden;
+    clear:both;
+    display: block;
+    content:".";
+    height: 0;
+}
+clearfix{
+    *zoom:1;
+}
+input{outline: none}
+button{outline: none}

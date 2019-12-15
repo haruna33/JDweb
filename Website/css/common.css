@@ -1,0 +1,251 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?x6jnob');
+    src:  url('../fonts/icomoon.eot?x6jnob#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?x6jnob') format('truetype'),
+    url('../fonts/icomoon.woff?x6jnob') format('woff'),
+    url('../fonts/icomoon.svg?x6jnob#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}/*导入文字图标*/
+.icomoon{
+    font-family: icomoon;
+    line-height: 24px;/*修复高度溢出*/
+}/*定义文字图标*/
+/*顶部*/
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+.shortcut li{
+    float: left;
+}
+.style-red{
+    color:#c81623;
+}
+/*构建竖线*/
+.fr .spacer{
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin:9px 12px;
+}
+.header{
+    position: relative;
+    height: 105px;
+    /*background-color: pink;*/
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 175px;
+    height: 56px;
+     ;
+}
+.logo a{
+    display: block;
+    width: 240px;
+    height: 380px;
+    background: url("../img/sprite@2x.png") no-repeat;
+    background-size: 100% auto;
+    /*background-position: -112px -25px;!*sprite图片定位*!*/
+    font-size: 0;
+}
+.search{
+    position: absolute;
+    top:25px;
+    left: 348px;
+}
+.search input{
+    float: left;
+    height: 32px;
+    width: 445px;
+    border: solid 2px #b1191a;
+    color: #ccc;
+    padding-left: 10px;
+    border-right: none;
+}
+.search button{
+    float: left;
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    border:none;
+    color: white;
+    font-size: 16px;
+}
+.hotword{
+    position: absolute;
+    top: 65px;
+    left: 348px;
+}
+.hotword a{
+    font-size: 12px;
+    margin: 0 5px;
+}
+.cart{
+    float: left;
+    position: absolute;
+    right: 150px;
+    top: 25px;
+    width: 138px;
+    height: 34px;
+    border:1px solid #f7f7f7;
+    background-color: white;
+    line-height: 34px;
+    text-align: center;
+    color: #e33333;
+}
+.cart .icomoon{
+    margin-right: 15px;
+
+}
+.cart .count{
+    position: absolute;
+    top: 1px;
+    left: 25px;
+    background-color: #e33333;
+    height: 14px;
+    line-height: 14px;/*重新定义行高对齐文字*/
+    color:white;
+    padding:0 3px;
+    font-size:10px;
+    border-radius: 15px;
+
+}
+.nav{
+    height: 45px;
+border-bottom:2px solid #e33333;
+}
+.w .dropdown{
+    height: 45px;
+    width: 209px;
+    background-color: #666666;
+}
+.dropdown .dt{
+    height: 100%;
+    width: 100%;
+    background-color: #e33333;
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;/*文字垂直居中*/
+    color: white;
+}
+.dropdown .dd{
+    margin-top:2px;
+    height: 465px;
+    width: 100%;
+
+}
+.dd ul li{
+
+    height: 31px;
+   padding: 0 10px;/*设置左右内边距*/
+    line-height: 31px;
+}
+.dd ul li:hover{
+    background-color: #ccc;}
+.dd ul li a{
+    color: #333;
+    font-size: 14px;
+}
+.dd ul li i{
+    float: right;
+
+    font-family:icomoon;
+
+}
+.navitems{
+    margin-left: 10px;
+}
+.navitems a{
+
+    font-size: 16px;
+    padding: 0 15px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+.footer{
+    padding-top: 30px;
+    height: 386px;
+    background-color: #fff;
+
+}
+.mod-service{
+    padding: 0 120px;
+    height: 79px;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+.mod-service li {
+    float: left;
+    width: 300px;
+    height: 79px;
+}
+.mod-service-common{
+    float: left;
+    width: 40px;
+    height: 46px;
+    background: url("../img/93ec59f9796c37a0903bfdd45f59f9d5.png") no-repeat;
+    background-size: 300%;
+}
+.mod-service-duo{
+   background-position: 0 0;
+}
+.mod-service-tit{
+    float: left;
+
+
+
+}
+.mod-service-tit h5{
+
+
+}
+.mod-service-tit p{
+    font-size: 12px;
+}
+.mod-service-kuai{
+    background-position:  -41px 0;
+
+}
+.mod-service-hao{
+    background-position: -80px 0;
+}
+.mod-service-sheng{
+    background-position: 0 -49px;
+}
+.mod-help{
+    height: 187px;
+
+    border-bottom: red 2px solid;
+}
+.mod-help-list{
+    float: left;
+    width: 150px;
+    padding: 20px 0 0 50px;
+}
+.mod-help-list dt{
+    height: 25px;
+    font-size: 16px;
+}
+.mod-help-list dd{
+    height: 22px;
+    font-size: 11px;
+}
