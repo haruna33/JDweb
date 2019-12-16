@@ -17,6 +17,10 @@
     font-family: icomoon;
     line-height: 24px;/*修复高度溢出*/
 }/*定义文字图标*/
+
+body{
+    background-color: #f4f4f4;
+}
 /*顶部*/
 .shortcut {
     height: 31px;
@@ -44,7 +48,9 @@
     background-color: #666;
     margin:9px 12px;
 }
+
 .header{
+    background-color: white;
     position: relative;
     height: 105px;
     /*background-color: pink;*/
@@ -129,12 +135,13 @@
 
 }
 .nav{
+    background-color: white;
     height: 45px;
 border-bottom:2px solid #e33333;
 }
 .w .dropdown{
     height: 45px;
-    width: 209px;
+    width: 190px;
     background-color: #666666;
 }
 .dropdown .dt{
@@ -150,6 +157,7 @@ border-bottom:2px solid #e33333;
     margin-top:2px;
     height: 465px;
     width: 100%;
+    background-color: white;
 
 }
 .dd ul li{
@@ -184,7 +192,7 @@ border-bottom:2px solid #e33333;
 .footer{
     padding-top: 30px;
     height: 386px;
-    background-color: #fff;
+
 
 }
 .mod-service{
